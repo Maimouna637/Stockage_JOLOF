@@ -33,6 +33,8 @@ spring:
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
     url: jdbc:postgresql://localhost:5432/stockage
+    username: postgres
+    password: passer
     hikari:
       poolName: Hikari
       auto-commit: false

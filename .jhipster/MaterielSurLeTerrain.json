@@ -1,0 +1,96 @@
+{
+  "annotations": {
+    "changelogDate": "20260706115954"
+  },
+  "applications": ["*"],
+  "fields": [
+    {
+      "fieldName": "dateAffectattion",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "materiel1",
+      "fieldType": "Models",
+      "fieldValues": "AI9,HT5MM,HT30MM,FX39,FC30,S09,EX39,NEANT"
+    },
+    {
+      "fieldName": "serie1",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "etat1",
+      "fieldType": "Etat",
+      "fieldValues": "BON,DEFFECTUEUX,NOUVEAU,NEANT"
+    },
+    {
+      "fieldName": "nombre1",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "materiel2",
+      "fieldType": "Models",
+      "fieldValues": "AI9,HT5MM,HT30MM,FX39,FC30,S09,EX39,NEANT"
+    },
+    {
+      "fieldName": "serie2",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "etat2",
+      "fieldType": "Etat",
+      "fieldValues": "BON,DEFFECTUEUX,NOUVEAU,NEANT"
+    },
+    {
+      "fieldName": "nombre2",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "materiel3",
+      "fieldType": "Models",
+      "fieldValues": "AI9,HT5MM,HT30MM,FX39,FC30,S09,EX39,NEANT"
+    },
+    {
+      "fieldName": "serie3",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "etat3",
+      "fieldType": "Etat",
+      "fieldValues": "BON,DEFFECTUEUX,NOUVEAU,NEANT"
+    },
+    {
+      "fieldName": "nombre3",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "materiel4",
+      "fieldType": "Models",
+      "fieldValues": "AI9,HT5MM,HT30MM,FX39,FC30,S09,EX39,NEANT"
+    },
+    {
+      "fieldName": "serie4",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "etat4",
+      "fieldType": "Etat",
+      "fieldValues": "BON,DEFFECTUEUX,NOUVEAU,NEANT"
+    },
+    {
+      "fieldName": "nombre4",
+      "fieldType": "Integer"
+    }
+  ],
+  "name": "MaterielSurLeTerrain",
+  "pagination": "infinite-scroll",
+  "relationships": [
+    {
+      "otherEntityName": "equipe",
+      "otherEntityRelationshipName": "materielSurLeTerrain",
+      "relationshipName": "equipe",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no"
+}

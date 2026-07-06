@@ -1,0 +1,47 @@
+entity Equipe {
+	nom String
+	prenom String
+}
+
+entity MaterielSurLeTerrain {
+	dateAffectattion LocalDate
+    materiel1 Models
+    serie1 String
+	etat1 Etat
+	nombre1 Integer
+	materiel2 Models
+	serie2 String
+	etat2 Etat
+	nombre2 Integer
+	materiel3 Models
+	serie3 String
+    etat3 Etat
+    nombre3 Integer
+	materiel4 Models
+	serie4 String
+    etat4 Etat
+    nombre4 Integer
+}
+
+entity MaterielEnStock {
+	dateReception LocalDate
+    quantite Integer
+    materiel Models
+    noserie String
+}
+
+enum Models {
+    AI9, HT5MM, HT30MM, FX39, FC30, S09, EX39, NEANT
+}
+
+enum Etat {
+    BON, DEFFECTUEUX, NOUVEAU, NEANT
+}
+
+
+relationship OneToMany {
+	Equipe to MaterielSurLeTerrain
+}
+
+paginate MaterielSurLeTerrain, MaterielEnStock with infinite-scroll
+

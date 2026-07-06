@@ -1,0 +1,29 @@
+{
+  "annotations": {
+    "changelogDate": "20260706115955"
+  },
+  "applications": ["*"],
+  "fields": [
+    {
+      "fieldName": "dateReception",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "quantite",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "materiel",
+      "fieldType": "Models",
+      "fieldValues": "AI9,HT5MM,HT30MM,FX39,FC30,S09,EX39,NEANT"
+    },
+    {
+      "fieldName": "noserie",
+      "fieldType": "String"
+    }
+  ],
+  "name": "MaterielEnStock",
+  "pagination": "infinite-scroll",
+  "relationships": [],
+  "searchEngine": "no"
+}

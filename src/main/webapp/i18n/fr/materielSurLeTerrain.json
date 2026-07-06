@@ -1,0 +1,41 @@
+{
+  "stockageApp": {
+    "materielSurLeTerrain": {
+      "home": {
+        "title": "MaterielSurLeTerrains",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Materiel Sur Le Terrain",
+        "createOrEditLabel": "Créer ou éditer un Materiel Sur Le Terrain",
+        "notFound": "Aucun Materiel Sur Le Terrain trouvé"
+      },
+      "created": "Un nouveau Materiel Sur Le Terrain a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Materiel Sur Le Terrain avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Materiel Sur Le Terrain avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Materiel Sur Le Terrain {{ id }} ?"
+      },
+      "detail": {
+        "title": "Materiel Sur Le Terrain"
+      },
+      "id": "ID",
+      "dateAffectattion": "Date Affectattion",
+      "materiel1": "Materiel 1",
+      "serie1": "Serie 1",
+      "etat1": "Etat 1",
+      "nombre1": "Nombre 1",
+      "materiel2": "Materiel 2",
+      "serie2": "Serie 2",
+      "etat2": "Etat 2",
+      "nombre2": "Nombre 2",
+      "materiel3": "Materiel 3",
+      "serie3": "Serie 3",
+      "etat3": "Etat 3",
+      "nombre3": "Nombre 3",
+      "materiel4": "Materiel 4",
+      "serie4": "Serie 4",
+      "etat4": "Etat 4",
+      "nombre4": "Nombre 4",
+      "equipe": "Equipe"
+    }
+  }
+}

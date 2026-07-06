@@ -1,0 +1,11 @@
+{
+  "stockageApp": {
+    "Etat": {
+      "null": "",
+      "BON": "BON",
+      "DEFFECTUEUX": "DEFFECTUEUX",
+      "NOUVEAU": "NOUVEAU",
+      "NEANT": "NEANT"
+    }
+  }
+}

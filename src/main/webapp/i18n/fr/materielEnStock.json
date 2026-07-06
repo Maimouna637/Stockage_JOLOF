@@ -1,0 +1,27 @@
+{
+  "stockageApp": {
+    "materielEnStock": {
+      "home": {
+        "title": "MaterielEnStocks",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Materiel En Stock",
+        "createOrEditLabel": "Créer ou éditer un Materiel En Stock",
+        "notFound": "Aucun Materiel En Stock trouvé"
+      },
+      "created": "Un nouveau Materiel En Stock a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Materiel En Stock avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Materiel En Stock avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Materiel En Stock {{ id }} ?"
+      },
+      "detail": {
+        "title": "Materiel En Stock"
+      },
+      "id": "ID",
+      "dateReception": "Date Reception",
+      "quantite": "Quantite",
+      "materiel": "Materiel",
+      "noserie": "Noserie"
+    }
+  }
+}

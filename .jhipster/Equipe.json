@@ -1,0 +1,27 @@
+{
+  "annotations": {
+    "changelogDate": "20260706115953"
+  },
+  "applications": ["*"],
+  "fields": [
+    {
+      "fieldName": "nom",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "prenom",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Equipe",
+  "relationships": [
+    {
+      "otherEntityName": "materielSurLeTerrain",
+      "otherEntityRelationshipName": "equipe",
+      "relationshipName": "materielSurLeTerrain",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "searchEngine": "no"
+}

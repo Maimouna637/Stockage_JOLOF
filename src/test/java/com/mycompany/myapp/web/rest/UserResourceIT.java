@@ -13,7 +13,7 @@ import com.mycompany.myapp.security.AuthoritiesConstants;
 import com.mycompany.myapp.service.UserService;
 import com.mycompany.myapp.service.dto.AdminUserDTO;
 import com.mycompany.myapp.service.mapper.UserMapper;
-import jakarta.persistence.EntityManager;
+//import jakarta.persistence.EntityManager;
 import java.util.*;
 import java.util.function.Consumer;
 import org.apache.commons.lang3.RandomStringUtils;
@@ -67,8 +67,8 @@ class UserResourceIT {
     @Autowired
     private UserMapper userMapper;
 
-    @Autowired
-    private EntityManager em;
+    //@Autowired
+    //private EntityManager em;
 
     @Autowired
     private MockMvc restUserMockMvc;

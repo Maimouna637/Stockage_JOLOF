@@ -8,6 +8,7 @@ import org.testcontainers.junit.jupiter.Container;
 import org.testcontainers.postgresql.PostgreSQLContainer;
 
 public interface DatabaseTestcontainer {
+    @SuppressWarnings("resource")
     @Container
     PostgreSQLContainer databaseContainer = new PostgreSQLContainer("postgres:18.3")
         .withDatabaseName("stockage")
